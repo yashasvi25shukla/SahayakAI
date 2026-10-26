@@ -1,0 +1,1867 @@
+[
+  {
+    "id": 1,
+    "scheme_code": "PMKISAN001",
+    "scheme_name": "Pradhan Mantri Kisan Samman Nidhi",
+    "short_name": "PM-KISAN",
+    "description": "Provides income support of ₹6,000 per year to eligible farmer families in three equal installments through Direct Benefit Transfer (DBT).",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "department": "Department of Agriculture & Farmers Welfare",
+    "category": "Agriculture",
+    "sub_category": "Income Support",
+    "status": "Active",
+
+    "benefits": {
+      "type": "Financial Assistance",
+      "amount": "₹6000/year",
+      "frequency": "Yearly",
+      "mode": "Direct Benefit Transfer (DBT)"
+    },
+
+    "eligibility": {
+      "minimum_age": 18,
+      "maximum_age": 120,
+      "gender": "Any",
+      "occupation": ["Farmer"],
+      "annual_income_limit": null,
+      "caste": ["General", "OBC", "SC", "ST"],
+      "religion": ["All"],
+      "state": ["All"],
+      "citizenship": "Indian",
+      "bpl_required": false,
+      "student": false,
+      "farmer": true,
+      "disabled": false,
+      "widow": false,
+      "senior_citizen": false
+    },
+
+    "required_documents": [
+      {"name":"Aadhaar Card","mandatory":true},
+      {"name":"Bank Passbook","mandatory":true},
+      {"name":"Land Records","mandatory":true}
+    ],
+
+    "application": {
+      "mode":"Online",
+      "official_website":"https://pmkisan.gov.in",
+      "application_link":"https://pmkisan.gov.in",
+      "deadline":"Open Throughout Year",
+      "last_updated":"2026-01-01"
+    },
+
+    "contact":{
+      "helpline":"155261",
+      "email":"pmkisan-ict@gov.in"
+    },
+
+    "keywords":[
+      "farmer","agriculture","dbt","income support","pm kisan"
+    ],
+
+    "ai_metadata":{
+      "priority_score":98,
+      "popularity":95,
+      "recommended_for":["Farmer","Small Farmer","Marginal Farmer"]
+    },
+
+    "created_at":"2026-01-01",
+    "updated_at":"2026-01-01"
+  },
+
+  {
+    "id":2,
+    "scheme_code":"PMJAY002",
+    "scheme_name":"Ayushman Bharat Pradhan Mantri Jan Arogya Yojana",
+    "short_name":"AB PM-JAY",
+    "description":"Provides health insurance coverage up to ₹5 lakh per family per year for secondary and tertiary hospitalization.",
+    "ministry":"Ministry of Health and Family Welfare",
+    "department":"National Health Authority",
+    "category":"Health",
+    "sub_category":"Health Insurance",
+    "status":"Active",
+
+    "benefits":{
+      "type":"Health Insurance",
+      "amount":"₹5,00,000/family/year",
+      "frequency":"Yearly",
+      "mode":"Cashless Treatment"
+    },
+
+    "eligibility":{
+      "minimum_age":0,
+      "maximum_age":120,
+      "gender":"Any",
+      "occupation":["Any"],
+      "annual_income_limit":null,
+      "caste":["General","OBC","SC","ST"],
+      "religion":["All"],
+      "state":["All"],
+      "citizenship":"Indian",
+      "bpl_required":true,
+      "student":false,
+      "farmer":false,
+      "disabled":false,
+      "widow":false,
+      "senior_citizen":false
+    },
+
+    "required_documents":[
+      {"name":"Aadhaar Card","mandatory":true},
+      {"name":"Ration Card","mandatory":true},
+      {"name":"Mobile Number","mandatory":true}
+    ],
+
+    "application":{
+      "mode":"Online/Offline",
+      "official_website":"https://pmjay.gov.in",
+      "application_link":"https://beneficiary.nha.gov.in",
+      "deadline":"Open",
+      "last_updated":"2026-01-01"
+    },
+
+    "contact":{
+      "helpline":"14555",
+      "email":"support.pmjay@nha.gov.in"
+    },
+
+    "keywords":[
+      "health","insurance","hospital","ayushman","pmjay"
+    ],
+
+    "ai_metadata":{
+      "priority_score":99,
+      "popularity":99,
+      "recommended_for":[
+        "Low Income Family",
+        "BPL Family"
+      ]
+    },
+
+    "created_at":"2026-01-01",
+    "updated_at":"2026-01-01"
+  },
+
+  {
+    "id":3,
+    "scheme_code":"PMAYG003",
+    "scheme_name":"Pradhan Mantri Awas Yojana - Gramin",
+    "short_name":"PMAY-G",
+    "description":"Provides financial assistance for construction of pucca houses for eligible rural households.",
+    "ministry":"Ministry of Rural Development",
+    "department":"Department of Rural Development",
+    "category":"Housing",
+    "sub_category":"Rural Housing",
+    "status":"Active",
+
+    "benefits":{
+      "type":"Housing Assistance",
+      "amount":"As per Government Norms",
+      "frequency":"One Time",
+      "mode":"DBT"
+    },
+
+    "eligibility":{
+      "minimum_age":18,
+      "maximum_age":120,
+      "gender":"Any",
+      "occupation":["Any"],
+      "annual_income_limit":300000,
+      "caste":["General","OBC","SC","ST"],
+      "religion":["All"],
+      "state":["All"],
+      "citizenship":"Indian",
+      "bpl_required":true,
+      "student":false,
+      "farmer":false,
+      "disabled":false,
+      "widow":false,
+      "senior_citizen":false
+    },
+
+    "required_documents":[
+      {"name":"Aadhaar Card","mandatory":true},
+      {"name":"Income Certificate","mandatory":true},
+      {"name":"Residence Proof","mandatory":true}
+    ],
+
+    "application":{
+      "mode":"Online/Offline",
+      "official_website":"https://pmayg.nic.in",
+      "application_link":"https://pmayg.nic.in",
+      "deadline":"Open",
+      "last_updated":"2026-01-01"
+    },
+
+    "contact":{
+      "helpline":"1800116446",
+      "email":"support@pmayg.gov.in"
+    },
+
+    "keywords":[
+      "house","housing","rural","pmay","home"
+    ],
+
+    "ai_metadata":{
+      "priority_score":92,
+      "popularity":90,
+      "recommended_for":[
+        "Rural Family",
+        "BPL Family"
+      ]
+    },
+
+    "created_at":"2026-01-01",
+    "updated_at":"2026-01-01"
+  },
+
+  {
+    "id":4,
+    "scheme_code":"PMAYU004",
+    "scheme_name":"Pradhan Mantri Awas Yojana - Urban",
+    "short_name":"PMAY-U",
+    "description":"Affordable housing scheme for eligible urban families through financial assistance and subsidies.",
+    "ministry":"Ministry of Housing and Urban Affairs",
+    "department":"Housing for All Mission",
+    "category":"Housing",
+    "sub_category":"Urban Housing",
+    "status":"Active",
+
+    "benefits":{
+      "type":"Housing Subsidy",
+      "amount":"As per Scheme",
+      "frequency":"One Time",
+      "mode":"Subsidy"
+    },
+
+    "eligibility":{
+      "minimum_age":18,
+      "maximum_age":120,
+      "gender":"Any",
+      "occupation":["Any"],
+      "annual_income_limit":1800000,
+      "caste":["General","OBC","SC","ST"],
+      "religion":["All"],
+      "state":["All"],
+      "citizenship":"Indian",
+      "bpl_required":false,
+      "student":false,
+      "farmer":false,
+      "disabled":false,
+      "widow":false,
+      "senior_citizen":false
+    },
+
+    "required_documents":[
+      {"name":"Aadhaar Card","mandatory":true},
+      {"name":"Income Certificate","mandatory":true},
+      {"name":"Property Documents","mandatory":true}
+    ],
+
+    "application":{
+      "mode":"Online",
+      "official_website":"https://pmaymis.gov.in",
+      "application_link":"https://pmaymis.gov.in",
+      "deadline":"Open",
+      "last_updated":"2026-01-01"
+    },
+
+    "contact":{
+      "helpline":"1800116163",
+      "email":"support@pmaymis.gov.in"
+    },
+
+    "keywords":[
+      "urban","housing","home","subsidy","pmay"
+    ],
+
+    "ai_metadata":{
+      "priority_score":90,
+      "popularity":88,
+      "recommended_for":[
+        "Urban Family",
+        "Middle Income Group"
+      ]
+    },
+
+    "created_at":"2026-01-01",
+    "updated_at":"2026-01-01"
+  },
+
+  {
+    "id":5,
+    "scheme_code":"MUDRA005",
+    "scheme_name":"Pradhan Mantri Mudra Yojana",
+    "short_name":"PMMY",
+    "description":"Provides collateral-free loans to micro and small enterprises through Shishu, Kishore and Tarun categories.",
+    "ministry":"Ministry of Finance",
+    "department":"MUDRA Ltd.",
+    "category":"Business",
+    "sub_category":"Loan",
+    "status":"Active",
+
+    "benefits":{
+      "type":"Business Loan",
+      "amount":"Up to ₹20 Lakh",
+      "frequency":"One Time",
+      "mode":"Bank Loan"
+    },
+
+    "eligibility":{
+      "minimum_age":18,
+      "maximum_age":65,
+      "gender":"Any",
+      "occupation":[
+        "Business",
+        "Self Employed",
+        "Entrepreneur"
+      ],
+      "annual_income_limit":null,
+      "caste":["General","OBC","SC","ST"],
+      "religion":["All"],
+      "state":["All"],
+      "citizenship":"Indian",
+      "bpl_required":false,
+      "student":false,
+      "farmer":false,
+      "disabled":false,
+      "widow":false,
+      "senior_citizen":false
+    },
+
+    "required_documents":[
+      {"name":"Aadhaar Card","mandatory":true},
+      {"name":"PAN Card","mandatory":true},
+      {"name":"Business Proof","mandatory":true},
+      {"name":"Bank Statement","mandatory":true}
+    ],
+
+    "application":{
+      "mode":"Online/Offline",
+      "official_website":"https://www.mudra.org.in",
+      "application_link":"https://www.mudra.org.in",
+      "deadline":"Open",
+      "last_updated":"2026-01-01"
+    },
+
+    "contact":{
+      "helpline":"18001801111",
+      "email":"support@mudra.org.in"
+    },
+
+    "keywords":[
+      "loan","startup","business","mudra","entrepreneur"
+    ],
+
+    "ai_metadata":{
+      "priority_score":95,
+      "popularity":94,
+      "recommended_for":[
+        "Startup",
+        "Business Owner",
+        "MSME"
+      ]
+    },
+
+    "created_at":"2026-01-01",
+    "updated_at":"2026-01-01"
+  },
+{
+  "id": 6,
+  "scheme_code": "SUI006",
+  "scheme_name": "Stand-Up India Scheme",
+  "short_name": "Stand-Up India",
+  "description": "Facilitates bank loans for SC/ST and Women entrepreneurs to establish greenfield enterprises.",
+  "ministry": "Ministry of Finance",
+  "department": "Department of Financial Services",
+  "category": "Business",
+  "sub_category": "Entrepreneurship",
+  "status": "Active",
+
+  "benefits": {
+    "type": "Business Loan",
+    "amount": "₹10 Lakh - ₹1 Crore",
+    "frequency": "One Time",
+    "mode": "Bank Loan"
+  },
+
+  "eligibility": {
+    "minimum_age": 18,
+    "maximum_age": 65,
+    "gender": "Any",
+    "occupation": ["Entrepreneur", "Business"],
+    "annual_income_limit": null,
+    "caste": ["SC", "ST"],
+    "religion": ["All"],
+    "state": ["All"],
+    "citizenship": "Indian",
+    "bpl_required": false,
+    "student": false,
+    "farmer": false,
+    "disabled": false,
+    "widow": false,
+    "senior_citizen": false
+  },
+
+  "required_documents": [
+    {"name":"Aadhaar Card","mandatory":true},
+    {"name":"PAN Card","mandatory":true},
+    {"name":"Business Proposal","mandatory":true},
+    {"name":"Bank Account","mandatory":true}
+  ],
+
+  "application":{
+    "mode":"Online",
+    "official_website":"https://www.standupmitra.in",
+    "application_link":"https://www.standupmitra.in",
+    "deadline":"Open",
+    "last_updated":"2026-01-01"
+  },
+
+  "contact":{
+    "helpline":"18001801111",
+    "email":"support@standupmitra.in"
+  },
+
+  "keywords":["startup","loan","women","sc","st","entrepreneur"],
+
+  "ai_metadata":{
+    "priority_score":94,
+    "popularity":91,
+    "recommended_for":["Women Entrepreneur","SC Entrepreneur","ST Entrepreneur"]
+  },
+
+  "created_at":"2026-01-01",
+  "updated_at":"2026-01-01"
+},
+
+{
+  "id": 7,
+  "scheme_code": "SI007",
+  "scheme_name": "Startup India",
+  "short_name": "Startup India",
+  "description": "Promotes innovation and entrepreneurship through recognition, tax benefits, and startup support.",
+  "ministry":"Department for Promotion of Industry and Internal Trade",
+  "department":"Startup India",
+  "category":"Startup",
+  "sub_category":"Innovation",
+  "status":"Active",
+
+  "benefits":{
+    "type":"Startup Support",
+    "amount":"Various Incentives",
+    "frequency":"As Applicable",
+    "mode":"Government Support"
+  },
+
+  "eligibility":{
+    "minimum_age":18,
+    "maximum_age":65,
+    "gender":"Any",
+    "occupation":["Entrepreneur","Student","Professional"],
+    "annual_income_limit":null,
+    "caste":["General","OBC","SC","ST"],
+    "religion":["All"],
+    "state":["All"],
+    "citizenship":"Indian",
+    "bpl_required":false,
+    "student":true,
+    "farmer":false,
+    "disabled":false,
+    "widow":false,
+    "senior_citizen":false
+  },
+
+  "required_documents":[
+    {"name":"Aadhaar Card","mandatory":true},
+    {"name":"PAN Card","mandatory":true},
+    {"name":"Business Registration","mandatory":true}
+  ],
+
+  "application":{
+    "mode":"Online",
+    "official_website":"https://www.startupindia.gov.in",
+    "application_link":"https://www.startupindia.gov.in",
+    "deadline":"Open",
+    "last_updated":"2026-01-01"
+  },
+
+  "contact":{
+    "helpline":"1800115565",
+    "email":"support@startupindia.gov.in"
+  },
+
+  "keywords":["startup","innovation","business","entrepreneur"],
+
+  "ai_metadata":{
+    "priority_score":93,
+    "popularity":94,
+    "recommended_for":["Startup Founder","Young Entrepreneur"]
+  },
+
+  "created_at":"2026-01-01",
+  "updated_at":"2026-01-01"
+},
+
+{
+  "id": 8,
+  "scheme_code":"APY008",
+  "scheme_name":"Atal Pension Yojana",
+  "short_name":"APY",
+  "description":"Guaranteed monthly pension after 60 years of age for eligible subscribers.",
+  "ministry":"Ministry of Finance",
+  "department":"PFRDA",
+  "category":"Pension",
+  "sub_category":"Social Security",
+  "status":"Active",
+
+  "benefits":{
+    "type":"Monthly Pension",
+    "amount":"₹1000 - ₹5000/month",
+    "frequency":"Monthly",
+    "mode":"Bank Transfer"
+  },
+
+  "eligibility":{
+    "minimum_age":18,
+    "maximum_age":40,
+    "gender":"Any",
+    "occupation":["Any"],
+    "annual_income_limit":null,
+    "caste":["General","OBC","SC","ST"],
+    "religion":["All"],
+    "state":["All"],
+    "citizenship":"Indian",
+    "bpl_required":false,
+    "student":false,
+    "farmer":false,
+    "disabled":false,
+    "widow":false,
+    "senior_citizen":false
+  },
+
+  "required_documents":[
+    {"name":"Aadhaar Card","mandatory":true},
+    {"name":"Savings Bank Account","mandatory":true},
+    {"name":"Mobile Number","mandatory":true}
+  ],
+
+  "application":{
+    "mode":"Online/Offline",
+    "official_website":"https://www.npscra.nsdl.co.in",
+    "application_link":"https://www.npscra.nsdl.co.in",
+    "deadline":"Open",
+    "last_updated":"2026-01-01"
+  },
+
+  "contact":{
+    "helpline":"1800117080",
+    "email":"apy@pfrda.org.in"
+  },
+
+  "keywords":["pension","retirement","social security"],
+
+  "ai_metadata":{
+    "priority_score":91,
+    "popularity":90,
+    "recommended_for":["Working Citizen","Unorganized Sector"]
+  },
+
+  "created_at":"2026-01-01",
+  "updated_at":"2026-01-01"
+},
+
+{
+  "id":9,
+  "scheme_code":"SSY009",
+  "scheme_name":"Sukanya Samriddhi Yojana",
+  "short_name":"SSY",
+  "description":"Small savings scheme for the financial security and education of the girl child.",
+  "ministry":"Ministry of Finance",
+  "department":"Department of Posts",
+  "category":"Women",
+  "sub_category":"Girl Child",
+  "status":"Active",
+
+  "benefits":{
+    "type":"Savings Scheme",
+    "amount":"High Interest Savings",
+    "frequency":"Long Term",
+    "mode":"Savings Account"
+  },
+
+  "eligibility":{
+    "minimum_age":0,
+    "maximum_age":10,
+    "gender":"Female",
+    "occupation":["Any"],
+    "annual_income_limit":null,
+    "caste":["General","OBC","SC","ST"],
+    "religion":["All"],
+    "state":["All"],
+    "citizenship":"Indian",
+    "bpl_required":false,
+    "student":false,
+    "farmer":false,
+    "disabled":false,
+    "widow":false,
+    "senior_citizen":false
+  },
+
+  "required_documents":[
+    {"name":"Birth Certificate","mandatory":true},
+    {"name":"Aadhaar Card","mandatory":true},
+    {"name":"Parent Identity Proof","mandatory":true}
+  ],
+
+  "application":{
+    "mode":"Offline",
+    "official_website":"https://www.indiapost.gov.in",
+    "application_link":"https://www.indiapost.gov.in",
+    "deadline":"Open",
+    "last_updated":"2026-01-01"
+  },
+
+  "contact":{
+    "helpline":"18002666868",
+    "email":"support@indiapost.gov.in"
+  },
+
+  "keywords":["girl child","savings","education","women"],
+
+  "ai_metadata":{
+    "priority_score":96,
+    "popularity":95,
+    "recommended_for":["Girl Child","Parents"]
+  },
+
+  "created_at":"2026-01-01",
+  "updated_at":"2026-01-01"
+},
+
+{
+  "id":10,
+  "scheme_code":"NSP010",
+  "scheme_name":"National Scholarship Portal",
+  "short_name":"NSP",
+  "description":"Single portal providing access to multiple Central and State Government scholarship schemes for eligible students.",
+  "ministry":"Ministry of Electronics and Information Technology",
+  "department":"National Informatics Centre",
+  "category":"Education",
+  "sub_category":"Scholarship",
+  "status":"Active",
+
+  "benefits":{
+    "type":"Scholarship",
+    "amount":"Varies by Scheme",
+    "frequency":"Yearly",
+    "mode":"DBT"
+  },
+
+  "eligibility":{
+    "minimum_age":10,
+    "maximum_age":35,
+    "gender":"Any",
+    "occupation":["Student"],
+    "annual_income_limit":800000,
+    "caste":["General","OBC","SC","ST","EWS"],
+    "religion":["All"],
+    "state":["All"],
+    "citizenship":"Indian",
+    "bpl_required":false,
+    "student":true,
+    "farmer":false,
+    "disabled":false,
+    "widow":false,
+    "senior_citizen":false
+  },
+
+  "required_documents":[
+    {"name":"Aadhaar Card","mandatory":true},
+    {"name":"Income Certificate","mandatory":true},
+    {"name":"Bonafide Certificate","mandatory":true},
+    {"name":"Previous Marksheet","mandatory":true},
+    {"name":"Bank Passbook","mandatory":true}
+  ],
+
+  "application":{
+    "mode":"Online",
+    "official_website":"https://scholarships.gov.in",
+    "application_link":"https://scholarships.gov.in",
+    "deadline":"Varies by Scholarship",
+    "last_updated":"2026-01-01"
+  },
+
+  "contact":{
+    "helpline":"0120-6619540",
+    "email":"helpdesk@nsp.gov.in"
+  },
+
+  "keywords":[
+    "scholarship",
+    "student",
+    "education",
+    "college",
+    "financial assistance"
+  ],
+
+  "ai_metadata":{
+    "priority_score":97,
+    "popularity":98,
+    "recommended_for":[
+      "School Student",
+      "College Student",
+      "University Student"
+    ]
+  },
+
+  "created_at":"2026-01-01",
+  "updated_at":"2026-01-01"
+},
+{
+  "id": 11,
+  "scheme_code": "PMKVY011",
+  "scheme_name": "Pradhan Mantri Kaushal Vikas Yojana",
+  "short_name": "PMKVY",
+  "description": "Flagship skill development scheme providing industry-relevant training and certification to improve employability.",
+  "ministry": "Ministry of Skill Development and Entrepreneurship",
+  "department": "National Skill Development Corporation",
+  "category": "Skill Development",
+  "sub_category": "Training",
+  "status": "Active",
+
+  "benefits": {
+    "type": "Skill Training",
+    "amount": "Free Training & Certification",
+    "frequency": "One Time",
+    "mode": "Training Center"
+  },
+
+  "eligibility": {
+    "minimum_age": 15,
+    "maximum_age": 45,
+    "gender": "Any",
+    "occupation": ["Student","Unemployed","Job Seeker"],
+    "annual_income_limit": null,
+    "caste": ["General","OBC","SC","ST","EWS"],
+    "religion": ["All"],
+    "state": ["All"],
+    "citizenship": "Indian",
+    "bpl_required": false,
+    "student": true,
+    "farmer": false,
+    "disabled": false,
+    "widow": false,
+    "senior_citizen": false
+  },
+
+  "required_documents": [
+    {"name":"Aadhaar Card","mandatory":true},
+    {"name":"Educational Certificate","mandatory":true},
+    {"name":"Passport Size Photograph","mandatory":true},
+    {"name":"Mobile Number","mandatory":true}
+  ],
+
+  "application": {
+    "mode": "Online/Offline",
+    "official_website": "https://www.pmkvyofficial.org",
+    "application_link": "https://www.skillindia.gov.in",
+    "deadline": "Open",
+    "last_updated": "2026-01-01"
+  },
+
+  "contact": {
+    "helpline": "8800055555",
+    "email": "pmkvy@nsdcindia.org"
+  },
+
+  "keywords": [
+    "skill",
+    "training",
+    "employment",
+    "job",
+    "certification"
+  ],
+
+  "ai_metadata": {
+    "priority_score": 95,
+    "popularity": 93,
+    "recommended_for": [
+      "Student",
+      "Unemployed Youth",
+      "Job Seeker"
+    ]
+  },
+
+  "created_at": "2026-01-01",
+  "updated_at": "2026-01-01"
+},
+
+{
+  "id": 12,
+  "scheme_code": "SVANIDHI012",
+  "scheme_name": "PM Street Vendor's AtmaNirbhar Nidhi",
+  "short_name": "PM SVANidhi",
+  "description": "Provides collateral-free working capital loans to street vendors to restart and expand their businesses.",
+  "ministry": "Ministry of Housing and Urban Affairs",
+  "department": "MoHUA",
+  "category": "Business",
+  "sub_category": "Street Vendor",
+  "status": "Active",
+
+  "benefits": {
+    "type": "Working Capital Loan",
+    "amount": "Up to ₹80,000 (in stages)",
+    "frequency": "As Eligible",
+    "mode": "Bank Loan"
+  },
+
+  "eligibility": {
+    "minimum_age": 18,
+    "maximum_age": 65,
+    "gender": "Any",
+    "occupation": ["Street Vendor","Self Employed"],
+    "annual_income_limit": null,
+    "caste": ["General","OBC","SC","ST"],
+    "religion": ["All"],
+    "state": ["All"],
+    "citizenship": "Indian",
+    "bpl_required": false,
+    "student": false,
+    "farmer": false,
+    "disabled": false,
+    "widow": false,
+    "senior_citizen": false
+  },
+
+  "required_documents": [
+    {"name":"Aadhaar Card","mandatory":true},
+    {"name":"Vendor Certificate","mandatory":true},
+    {"name":"Bank Account","mandatory":true},
+    {"name":"Mobile Number","mandatory":true}
+  ],
+
+  "application": {
+    "mode": "Online/Offline",
+    "official_website": "https://pmsvanidhi.mohua.gov.in",
+    "application_link": "https://pmsvanidhi.mohua.gov.in",
+    "deadline": "Open",
+    "last_updated": "2026-01-01"
+  },
+
+  "contact": {
+    "helpline": "1800111979",
+    "email": "support-svanidhi@mohua.gov.in"
+  },
+
+  "keywords": [
+    "street vendor",
+    "loan",
+    "business",
+    "self employment"
+  ],
+
+  "ai_metadata": {
+    "priority_score": 92,
+    "popularity": 90,
+    "recommended_for": [
+      "Street Vendor",
+      "Small Business Owner"
+    ]
+  },
+
+  "created_at": "2026-01-01",
+  "updated_at": "2026-01-01"
+},
+
+{
+  "id": 13,
+  "scheme_code": "PMUY013",
+  "scheme_name": "Pradhan Mantri Ujjwala Yojana",
+  "short_name": "PMUY",
+  "description": "Provides LPG connections to eligible women from economically weaker households for clean cooking fuel.",
+  "ministry": "Ministry of Petroleum and Natural Gas",
+  "department": "Petroleum Planning & Analysis Cell",
+  "category": "Women",
+  "sub_category": "LPG Connection",
+  "status": "Active",
+
+  "benefits": {
+    "type": "LPG Connection",
+    "amount": "Subsidized LPG Connection",
+    "frequency": "One Time",
+    "mode": "Government Subsidy"
+  },
+
+  "eligibility": {
+    "minimum_age": 18,
+    "maximum_age": 120,
+    "gender": "Female",
+    "occupation": ["Any"],
+    "annual_income_limit": null,
+    "caste": ["General","OBC","SC","ST"],
+    "religion": ["All"],
+    "state": ["All"],
+    "citizenship": "Indian",
+    "bpl_required": true,
+    "student": false,
+    "farmer": false,
+    "disabled": false,
+    "widow": false,
+    "senior_citizen": false
+  },
+
+  "required_documents": [
+    {"name":"Aadhaar Card","mandatory":true},
+    {"name":"Ration Card","mandatory":true},
+    {"name":"Bank Account","mandatory":true}
+  ],
+
+  "application": {
+    "mode": "Online/Offline",
+    "official_website": "https://www.pmuy.gov.in",
+    "application_link": "https://www.pmuy.gov.in",
+    "deadline": "Open",
+    "last_updated": "2026-01-01"
+  },
+
+  "contact": {
+    "helpline": "1906",
+    "email": "support@pmuy.gov.in"
+  },
+
+  "keywords": [
+    "gas",
+    "lpg",
+    "women",
+    "clean cooking",
+    "subsidy"
+  ],
+
+  "ai_metadata": {
+    "priority_score": 94,
+    "popularity": 96,
+    "recommended_for": [
+      "Women",
+      "BPL Family"
+    ]
+  },
+
+  "created_at": "2026-01-01",
+  "updated_at": "2026-01-01"
+},
+
+{
+  "id": 14,
+  "scheme_code": "ESHRAM014",
+  "scheme_name": "e-Shram",
+  "short_name": "e-Shram",
+  "description": "National database for unorganized workers providing access to social security and welfare benefits.",
+  "ministry": "Ministry of Labour and Employment",
+  "department": "e-Shram Portal",
+  "category": "Employment",
+  "sub_category": "Unorganized Workers",
+  "status": "Active",
+
+  "benefits": {
+    "type": "Social Security",
+    "amount": "Scheme Based",
+    "frequency": "Varies",
+    "mode": "Government Benefits"
+  },
+
+  "eligibility": {
+    "minimum_age": 16,
+    "maximum_age": 59,
+    "gender": "Any",
+    "occupation": ["Unorganized Worker","Labourer","Gig Worker"],
+    "annual_income_limit": null,
+    "caste": ["General","OBC","SC","ST"],
+    "religion": ["All"],
+    "state": ["All"],
+    "citizenship": "Indian",
+    "bpl_required": false,
+    "student": false,
+    "farmer": false,
+    "disabled": false,
+    "widow": false,
+    "senior_citizen": false
+  },
+
+  "required_documents": [
+    {"name":"Aadhaar Card","mandatory":true},
+    {"name":"Bank Account","mandatory":true},
+    {"name":"Mobile Number","mandatory":true}
+  ],
+
+  "application": {
+    "mode": "Online",
+    "official_website": "https://eshram.gov.in",
+    "application_link": "https://eshram.gov.in",
+    "deadline": "Open",
+    "last_updated": "2026-01-01"
+  },
+
+  "contact": {
+    "helpline": "14434",
+    "email": "helpdesk@eshram.gov.in"
+  },
+
+  "keywords": [
+    "labour",
+    "worker",
+    "employment",
+    "social security"
+  ],
+
+  "ai_metadata": {
+    "priority_score": 91,
+    "popularity": 92,
+    "recommended_for": [
+      "Construction Worker",
+      "Gig Worker",
+      "Daily Wage Labourer"
+    ]
+  },
+
+  "created_at": "2026-01-01",
+  "updated_at": "2026-01-01"
+},
+
+{
+  "id": 15,
+  "scheme_code": "KCC015",
+  "scheme_name": "Kisan Credit Card",
+  "short_name": "KCC",
+  "description": "Provides farmers with timely access to short-term credit for agriculture and allied activities.",
+  "ministry": "Ministry of Agriculture and Farmers Welfare",
+  "department": "Department of Agriculture & Farmers Welfare",
+  "category": "Agriculture",
+  "sub_category": "Agricultural Credit",
+  "status": "Active",
+
+  "benefits": {
+    "type": "Agricultural Loan",
+    "amount": "As per Eligibility",
+    "frequency": "Renewable Credit",
+    "mode": "Bank Credit"
+  },
+
+  "eligibility": {
+    "minimum_age": 18,
+    "maximum_age": 75,
+    "gender": "Any",
+    "occupation": ["Farmer"],
+    "annual_income_limit": null,
+    "caste": ["General","OBC","SC","ST"],
+    "religion": ["All"],
+    "state": ["All"],
+    "citizenship": "Indian",
+    "bpl_required": false,
+    "student": false,
+    "farmer": true,
+    "disabled": false,
+    "widow": false,
+    "senior_citizen": false
+  },
+
+  "required_documents": [
+    {"name":"Aadhaar Card","mandatory":true},
+    {"name":"Land Ownership Proof","mandatory":true},
+    {"name":"Bank Passbook","mandatory":true},
+    {"name":"Passport Size Photograph","mandatory":true}
+  ],
+
+  "application": {
+    "mode": "Online/Offline",
+    "official_website": "https://www.myscheme.gov.in",
+    "application_link": "https://www.myscheme.gov.in",
+    "deadline": "Open",
+    "last_updated": "2026-01-01"
+  },
+
+  "contact": {
+    "helpline": "18001801551",
+    "email": "support@kcc.gov.in"
+  },
+
+  "keywords": [
+    "kisan",
+    "credit",
+    "loan",
+    "agriculture",
+    "farmer"
+  ],
+
+  "ai_metadata": {
+    "priority_score": 96,
+    "popularity": 94,
+    "recommended_for": [
+      "Farmer",
+      "Agricultural Worker"
+    ]
+  },
+
+  "created_at": "2026-01-01",
+  "updated_at": "2026-01-01"
+},
+{
+  "id": 16,
+  "scheme_code": "PMJDY016",
+  "scheme_name": "Pradhan Mantri Jan Dhan Yojana",
+  "short_name": "PMJDY",
+  "description": "National mission for financial inclusion providing access to banking services, RuPay debit card, insurance and pension facilities.",
+  "ministry": "Ministry of Finance",
+  "department": "Department of Financial Services",
+  "category": "Financial Inclusion",
+  "sub_category": "Banking",
+  "status": "Active",
+
+  "benefits": {
+    "type": "Banking Services",
+    "amount": "Zero Balance Account",
+    "frequency": "One Time",
+    "mode": "Bank Account"
+  },
+
+  "eligibility": {
+    "minimum_age": 10,
+    "maximum_age": 120,
+    "gender": "Any",
+    "occupation": ["Any"],
+    "annual_income_limit": null,
+    "caste": ["General","OBC","SC","ST","EWS"],
+    "religion": ["All"],
+    "state": ["All"],
+    "citizenship": "Indian",
+    "bpl_required": false,
+    "student": false,
+    "farmer": false,
+    "disabled": false,
+    "widow": false,
+    "senior_citizen": false
+  },
+
+  "required_documents": [
+    {"name":"Aadhaar Card","mandatory":true},
+    {"name":"PAN Card","mandatory":false},
+    {"name":"Mobile Number","mandatory":true}
+  ],
+
+  "application": {
+    "mode": "Online/Offline",
+    "official_website": "https://pmjdy.gov.in",
+    "application_link": "https://pmjdy.gov.in",
+    "deadline": "Open",
+    "last_updated": "2026-01-01"
+  },
+
+  "contact": {
+    "helpline": "18001801111",
+    "email": "support@pmjdy.gov.in"
+  },
+
+  "keywords": [
+    "bank",
+    "jan dhan",
+    "financial inclusion",
+    "rupay",
+    "account"
+  ],
+
+  "ai_metadata": {
+    "priority_score": 97,
+    "popularity": 98,
+    "recommended_for": [
+      "Every Citizen",
+      "First Time Bank User"
+    ]
+  },
+
+  "created_at": "2026-01-01",
+  "updated_at": "2026-01-01"
+},
+
+{
+  "id": 17,
+  "scheme_code": "NSAP017",
+  "scheme_name": "National Social Assistance Programme",
+  "short_name": "NSAP",
+  "description": "Provides financial assistance to elderly persons, widows and persons with disabilities belonging to eligible households.",
+  "ministry": "Ministry of Rural Development",
+  "department": "Department of Rural Development",
+  "category": "Social Welfare",
+  "sub_category": "Financial Assistance",
+  "status": "Active",
+
+  "benefits": {
+    "type": "Pension Assistance",
+    "amount": "Varies by Scheme",
+    "frequency": "Monthly",
+    "mode": "DBT"
+  },
+
+  "eligibility": {
+    "minimum_age": 18,
+    "maximum_age": 120,
+    "gender": "Any",
+    "occupation": ["Any"],
+    "annual_income_limit": 100000,
+    "caste": ["General","OBC","SC","ST"],
+    "religion": ["All"],
+    "state": ["All"],
+    "citizenship": "Indian",
+    "bpl_required": true,
+    "student": false,
+    "farmer": false,
+    "disabled": true,
+    "widow": true,
+    "senior_citizen": true
+  },
+
+  "required_documents": [
+    {"name":"Aadhaar Card","mandatory":true},
+    {"name":"Income Certificate","mandatory":true},
+    {"name":"Age Proof","mandatory":true},
+    {"name":"Bank Passbook","mandatory":true}
+  ],
+
+  "application": {
+    "mode": "Online/Offline",
+    "official_website": "https://nsap.nic.in",
+    "application_link": "https://nsap.nic.in",
+    "deadline": "Open",
+    "last_updated": "2026-01-01"
+  },
+
+  "contact": {
+    "helpline": "1800111555",
+    "email": "support@nsap.nic.in"
+  },
+
+  "keywords": [
+    "pension",
+    "widow",
+    "disabled",
+    "senior citizen",
+    "social welfare"
+  ],
+
+  "ai_metadata": {
+    "priority_score": 95,
+    "popularity": 91,
+    "recommended_for": [
+      "Widow",
+      "Disabled Person",
+      "Senior Citizen"
+    ]
+  },
+
+  "created_at": "2026-01-01",
+  "updated_at": "2026-01-01"
+},
+
+{
+  "id": 18,
+  "scheme_code": "BBBP018",
+  "scheme_name": "Beti Bachao Beti Padhao",
+  "short_name": "BBBP",
+  "description": "Promotes education, survival and empowerment of the girl child through awareness and support initiatives.",
+  "ministry": "Ministry of Women and Child Development",
+  "department": "Women & Child Development",
+  "category": "Women",
+  "sub_category": "Girl Child",
+  "status": "Active",
+
+  "benefits": {
+    "type": "Awareness & Support",
+    "amount": "Scheme Based",
+    "frequency": "Varies",
+    "mode": "Government Support"
+  },
+
+  "eligibility": {
+    "minimum_age": 0,
+    "maximum_age": 18,
+    "gender": "Female",
+    "occupation": ["Student"],
+    "annual_income_limit": null,
+    "caste": ["General","OBC","SC","ST"],
+    "religion": ["All"],
+    "state": ["All"],
+    "citizenship": "Indian",
+    "bpl_required": false,
+    "student": true,
+    "farmer": false,
+    "disabled": false,
+    "widow": false,
+    "senior_citizen": false
+  },
+
+  "required_documents": [
+    {"name":"Birth Certificate","mandatory":true},
+    {"name":"Aadhaar Card","mandatory":true},
+    {"name":"School Certificate","mandatory":false}
+  ],
+
+  "application": {
+    "mode": "Offline",
+    "official_website": "https://wcd.gov.in",
+    "application_link": "https://wcd.gov.in",
+    "deadline": "Open",
+    "last_updated": "2026-01-01"
+  },
+
+  "contact": {
+    "helpline": "181",
+    "email": "support@wcd.gov.in"
+  },
+
+  "keywords": [
+    "girl child",
+    "women",
+    "education",
+    "empowerment"
+  ],
+
+  "ai_metadata": {
+    "priority_score": 93,
+    "popularity": 94,
+    "recommended_for": [
+      "Girl Child",
+      "Parents"
+    ]
+  },
+
+  "created_at": "2026-01-01",
+  "updated_at": "2026-01-01"
+},
+
+{
+  "id": 19,
+  "scheme_code": "NAPS019",
+  "scheme_name": "National Apprenticeship Promotion Scheme",
+  "short_name": "NAPS",
+  "description": "Encourages apprenticeship training by providing financial support to establishments and improving employability.",
+  "ministry": "Ministry of Skill Development and Entrepreneurship",
+  "department": "Directorate General of Training",
+  "category": "Employment",
+  "sub_category": "Apprenticeship",
+  "status": "Active",
+
+  "benefits": {
+    "type": "Skill Development",
+    "amount": "Stipend Support",
+    "frequency": "Monthly",
+    "mode": "DBT"
+  },
+
+  "eligibility": {
+    "minimum_age": 14,
+    "maximum_age": 35,
+    "gender": "Any",
+    "occupation": ["Student","Job Seeker"],
+    "annual_income_limit": null,
+    "caste": ["General","OBC","SC","ST"],
+    "religion": ["All"],
+    "state": ["All"],
+    "citizenship": "Indian",
+    "bpl_required": false,
+    "student": true,
+    "farmer": false,
+    "disabled": false,
+    "widow": false,
+    "senior_citizen": false
+  },
+
+  "required_documents": [
+    {"name":"Aadhaar Card","mandatory":true},
+    {"name":"Educational Certificate","mandatory":true},
+    {"name":"Bank Passbook","mandatory":true}
+  ],
+
+  "application": {
+    "mode": "Online",
+    "official_website": "https://www.apprenticeshipindia.gov.in",
+    "application_link": "https://www.apprenticeshipindia.gov.in",
+    "deadline": "Open",
+    "last_updated": "2026-01-01"
+  },
+
+  "contact": {
+    "helpline": "1800118001",
+    "email": "support@apprenticeshipindia.gov.in"
+  },
+
+  "keywords": [
+    "apprenticeship",
+    "skill",
+    "training",
+    "employment"
+  ],
+
+  "ai_metadata": {
+    "priority_score": 94,
+    "popularity": 90,
+    "recommended_for": [
+      "Student",
+      "Graduate",
+      "ITI Student"
+    ]
+  },
+
+  "created_at": "2026-01-01",
+  "updated_at": "2026-01-01"
+},
+
+{
+  "id": 20,
+  "scheme_code": "DAYNRLM020",
+  "scheme_name": "Deendayal Antyodaya Yojana - National Rural Livelihoods Mission",
+  "short_name": "DAY-NRLM",
+  "description": "Empowers rural poor households through self-help groups, livelihood promotion and financial inclusion.",
+  "ministry": "Ministry of Rural Development",
+  "department": "National Rural Livelihood Mission",
+  "category": "Rural Development",
+  "sub_category": "Livelihood",
+  "status": "Active",
+
+  "benefits": {
+    "type": "Livelihood Support",
+    "amount": "Scheme Based",
+    "frequency": "Varies",
+    "mode": "Government Assistance"
+  },
+
+  "eligibility": {
+    "minimum_age": 18,
+    "maximum_age": 60,
+    "gender": "Any",
+    "occupation": ["Rural Household","Self Help Group Member"],
+    "annual_income_limit": 300000,
+    "caste": ["General","OBC","SC","ST"],
+    "religion": ["All"],
+    "state": ["All"],
+    "citizenship": "Indian",
+    "bpl_required": true,
+    "student": false,
+    "farmer": true,
+    "disabled": false,
+    "widow": false,
+    "senior_citizen": false
+  },
+
+  "required_documents": [
+    {"name":"Aadhaar Card","mandatory":true},
+    {"name":"Income Certificate","mandatory":true},
+    {"name":"Bank Passbook","mandatory":true},
+    {"name":"Residence Certificate","mandatory":true}
+  ],
+
+  "application": {
+    "mode": "Online/Offline",
+    "official_website": "https://aajeevika.gov.in",
+    "application_link": "https://aajeevika.gov.in",
+    "deadline": "Open",
+    "last_updated": "2026-01-01"
+  },
+
+  "contact": {
+    "helpline": "1800111555",
+    "email": "support@aajeevika.gov.in"
+  },
+
+  "keywords": [
+    "rural",
+    "livelihood",
+    "self help group",
+    "employment",
+    "women"
+  ],
+
+  "ai_metadata": {
+    "priority_score": 92,
+    "popularity": 89,
+    "recommended_for": [
+      "Rural Family",
+      "SHG Member",
+      "Women"
+    ]
+  },
+
+  "created_at": "2026-01-01",
+  "updated_at": "2026-01-01"
+},
+{
+  "id": 21,
+  "scheme_code": "DI021",
+  "scheme_name": "Digital India Programme",
+  "short_name": "Digital India",
+  "description": "Flagship programme to transform India into a digitally empowered society and knowledge economy.",
+  "ministry": "Ministry of Electronics and Information Technology",
+  "department": "MeitY",
+  "category": "Digital",
+  "sub_category": "Digital Governance",
+  "status": "Active",
+
+  "benefits": {
+    "type": "Digital Services",
+    "amount": "Government Digital Services",
+    "frequency": "Continuous",
+    "mode": "Online"
+  },
+
+  "eligibility": {
+    "minimum_age": 0,
+    "maximum_age": 120,
+    "gender": "Any",
+    "occupation": ["Any"],
+    "annual_income_limit": null,
+    "caste": ["General","OBC","SC","ST","EWS"],
+    "religion": ["All"],
+    "state": ["All"],
+    "citizenship": "Indian",
+    "bpl_required": false,
+    "student": false,
+    "farmer": false,
+    "disabled": false,
+    "widow": false,
+    "senior_citizen": false
+  },
+
+  "required_documents":[
+    {"name":"Aadhaar Card","mandatory":false},
+    {"name":"Mobile Number","mandatory":true}
+  ],
+
+  "application":{
+    "mode":"Online",
+    "official_website":"https://www.digitalindia.gov.in",
+    "application_link":"https://www.digitalindia.gov.in",
+    "deadline":"Open",
+    "last_updated":"2026-01-01"
+  },
+
+  "contact":{
+    "helpline":"1800111555",
+    "email":"support@digitalindia.gov.in"
+  },
+
+  "keywords":[
+    "digital",
+    "internet",
+    "online services",
+    "egovernance"
+  ],
+
+  "ai_metadata":{
+    "priority_score":90,
+    "popularity":96,
+    "recommended_for":[
+      "Every Citizen"
+    ]
+  },
+
+  "created_at":"2026-01-01",
+  "updated_at":"2026-01-01"
+},
+
+{
+  "id":22,
+  "scheme_code":"SHC022",
+  "scheme_name":"Soil Health Card Scheme",
+  "short_name":"SHC",
+  "description":"Provides soil health assessment and recommendations to improve agricultural productivity.",
+  "ministry":"Ministry of Agriculture and Farmers Welfare",
+  "department":"Department of Agriculture",
+  "category":"Agriculture",
+  "sub_category":"Soil Health",
+  "status":"Active",
+
+  "benefits":{
+    "type":"Agricultural Support",
+    "amount":"Free Soil Testing",
+    "frequency":"Periodic",
+    "mode":"Government Service"
+  },
+
+  "eligibility":{
+    "minimum_age":18,
+    "maximum_age":120,
+    "gender":"Any",
+    "occupation":["Farmer"],
+    "annual_income_limit":null,
+    "caste":["General","OBC","SC","ST"],
+    "religion":["All"],
+    "state":["All"],
+    "citizenship":"Indian",
+    "bpl_required":false,
+    "student":false,
+    "farmer":true,
+    "disabled":false,
+    "widow":false,
+    "senior_citizen":false
+  },
+
+  "required_documents":[
+    {"name":"Aadhaar Card","mandatory":true},
+    {"name":"Land Records","mandatory":true}
+  ],
+
+  "application":{
+    "mode":"Online/Offline",
+    "official_website":"https://soilhealth.dac.gov.in",
+    "application_link":"https://soilhealth.dac.gov.in",
+    "deadline":"Open",
+    "last_updated":"2026-01-01"
+  },
+
+  "contact":{
+    "helpline":"18001801551",
+    "email":"support@soilhealth.gov.in"
+  },
+
+  "keywords":[
+    "soil",
+    "farmer",
+    "agriculture",
+    "fertility"
+  ],
+
+  "ai_metadata":{
+    "priority_score":92,
+    "popularity":87,
+    "recommended_for":[
+      "Farmer"
+    ]
+  },
+
+  "created_at":"2026-01-01",
+  "updated_at":"2026-01-01"
+},
+
+{
+  "id":23,
+  "scheme_code":"PMFBY023",
+  "scheme_name":"Pradhan Mantri Fasal Bima Yojana",
+  "short_name":"PMFBY",
+  "description":"Crop insurance scheme protecting farmers against crop loss due to natural calamities, pests and diseases.",
+  "ministry":"Ministry of Agriculture and Farmers Welfare",
+  "department":"Department of Agriculture",
+  "category":"Agriculture",
+  "sub_category":"Crop Insurance",
+  "status":"Active",
+
+  "benefits":{
+    "type":"Insurance",
+    "amount":"Crop Loss Coverage",
+    "frequency":"Seasonal",
+    "mode":"Insurance Claim"
+  },
+
+  "eligibility":{
+    "minimum_age":18,
+    "maximum_age":120,
+    "gender":"Any",
+    "occupation":["Farmer"],
+    "annual_income_limit":null,
+    "caste":["General","OBC","SC","ST"],
+    "religion":["All"],
+    "state":["All"],
+    "citizenship":"Indian",
+    "bpl_required":false,
+    "student":false,
+    "farmer":true,
+    "disabled":false,
+    "widow":false,
+    "senior_citizen":false
+  },
+
+  "required_documents":[
+    {"name":"Aadhaar Card","mandatory":true},
+    {"name":"Land Records","mandatory":true},
+    {"name":"Bank Passbook","mandatory":true}
+  ],
+
+  "application":{
+    "mode":"Online/Offline",
+    "official_website":"https://pmfby.gov.in",
+    "application_link":"https://pmfby.gov.in",
+    "deadline":"Seasonal",
+    "last_updated":"2026-01-01"
+  },
+
+  "contact":{
+    "helpline":"14447",
+    "email":"support@pmfby.gov.in"
+  },
+
+  "keywords":[
+    "crop",
+    "insurance",
+    "farmer",
+    "agriculture"
+  ],
+
+  "ai_metadata":{
+    "priority_score":97,
+    "popularity":95,
+    "recommended_for":[
+      "Farmer"
+    ]
+  },
+
+  "created_at":"2026-01-01",
+  "updated_at":"2026-01-01"
+},
+
+{
+  "id":24,
+  "scheme_code":"JJM024",
+  "scheme_name":"Jal Jeevan Mission",
+  "short_name":"JJM",
+  "description":"Mission to provide safe and adequate drinking water through household tap connections in rural India.",
+  "ministry":"Ministry of Jal Shakti",
+  "department":"Department of Drinking Water and Sanitation",
+  "category":"Infrastructure",
+  "sub_category":"Water Supply",
+  "status":"Active",
+
+  "benefits":{
+    "type":"Infrastructure",
+    "amount":"Tap Water Connection",
+    "frequency":"One Time",
+    "mode":"Government Service"
+  },
+
+  "eligibility":{
+    "minimum_age":18,
+    "maximum_age":120,
+    "gender":"Any",
+    "occupation":["Any"],
+    "annual_income_limit":null,
+    "caste":["General","OBC","SC","ST"],
+    "religion":["All"],
+    "state":["All"],
+    "citizenship":"Indian",
+    "bpl_required":false,
+    "student":false,
+    "farmer":false,
+    "disabled":false,
+    "widow":false,
+    "senior_citizen":false
+  },
+
+  "required_documents":[
+    {"name":"Residence Proof","mandatory":true},
+    {"name":"Aadhaar Card","mandatory":true}
+  ],
+
+  "application":{
+    "mode":"Offline/Online",
+    "official_website":"https://jaljeevanmission.gov.in",
+    "application_link":"https://jaljeevanmission.gov.in",
+    "deadline":"Open",
+    "last_updated":"2026-01-01"
+  },
+
+  "contact":{
+    "helpline":"18001805500",
+    "email":"support@jaljeevanmission.gov.in"
+  },
+
+  "keywords":[
+    "water",
+    "tap",
+    "rural",
+    "drinking water"
+  ],
+
+  "ai_metadata":{
+    "priority_score":91,
+    "popularity":90,
+    "recommended_for":[
+      "Rural Family"
+    ]
+  },
+
+  "created_at":"2026-01-01",
+  "updated_at":"2026-01-01"
+},
+
+{
+  "id":25,
+  "scheme_code":"MS025",
+  "scheme_name":"Mission Shakti",
+  "short_name":"Mission Shakti",
+  "description":"Umbrella scheme for women's safety, security, protection and empowerment through multiple government initiatives.",
+  "ministry":"Ministry of Women and Child Development",
+  "department":"Women and Child Development",
+  "category":"Women",
+  "sub_category":"Women Empowerment",
+  "status":"Active",
+
+  "benefits":{
+    "type":"Women Welfare",
+    "amount":"Scheme Based",
+    "frequency":"Varies",
+    "mode":"Government Assistance"
+  },
+
+  "eligibility":{
+    "minimum_age":18,
+    "maximum_age":120,
+    "gender":"Female",
+    "occupation":["Any"],
+    "annual_income_limit":null,
+    "caste":["General","OBC","SC","ST"],
+    "religion":["All"],
+    "state":["All"],
+    "citizenship":"Indian",
+    "bpl_required":false,
+    "student":false,
+    "farmer":false,
+    "disabled":false,
+    "widow":true,
+    "senior_citizen":false
+  },
+
+  "required_documents":[
+    {"name":"Aadhaar Card","mandatory":true},
+    {"name":"Residence Proof","mandatory":true}
+  ],
+
+  "application":{
+    "mode":"Online/Offline",
+    "official_website":"https://wcd.gov.in",
+    "application_link":"https://wcd.gov.in",
+    "deadline":"Open",
+    "last_updated":"2026-01-01"
+  },
+
+  "contact":{
+    "helpline":"181",
+    "email":"support@wcd.gov.in"
+  },
+
+  "keywords":[
+    "women",
+    "empowerment",
+    "safety",
+    "security"
+  ],
+
+  "ai_metadata":{
+    "priority_score":95,
+    "popularity":93,
+    "recommended_for":[
+      "Women",
+      "Widows",
+      "Women in Need"
+    ]
+  },
+
+  "created_at":"2026-01-01",
+  "updated_at":"2026-01-01"
+}
+]
